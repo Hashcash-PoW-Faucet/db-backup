@@ -1,0 +1,35 @@
+{
+  "created_at_unix": 1767835666,
+  "created_at_utc": "2026-01-08T01:27:46Z",
+  "note": "Encrypted snapshot: gzip + gpg symmetric AES256",
+  "snapshot_checks": {
+    "integrity_check": [
+      "ok"
+    ],
+    "integrity_check_ok": true,
+    "journal_mode": "wal",
+    "quick_check": [
+      "ok"
+    ],
+    "quick_check_ok": true,
+    "synchronous": 2,
+    "user_version": 0
+  },
+  "snapshot_file": "faucet_snapshot_20260108-012746.db.gz.gpg",
+  "snapshot_sha256": "13ecb8fe791794a6ba41a4966a2dac68a47d5a5d0f3da5d3f534ed0df0f883d8",
+  "snapshot_size_bytes": 2312,
+  "source_checks": {
+    "integrity_check": [
+      "ok"
+    ],
+    "integrity_check_ok": true,
+    "journal_mode": "wal",
+    "quick_check": [
+      "ok"
+    ],
+    "quick_check_ok": true,
+    "synchronous": 2,
+    "user_version": 0
+  },
+  "source_db_path": "/Users/hamu/PoW-Faucet/backend/faucet.db"
+}
