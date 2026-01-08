@@ -1,0 +1,35 @@
+{
+  "created_at_unix": 1767836776,
+  "created_at_utc": "2026-01-08T01:46:16Z",
+  "note": "Encrypted snapshot: gzip + gpg symmetric AES256",
+  "snapshot_checks": {
+    "integrity_check": [
+      "ok"
+    ],
+    "integrity_check_ok": true,
+    "journal_mode": "delete",
+    "quick_check": [
+      "ok"
+    ],
+    "quick_check_ok": true,
+    "synchronous": 2,
+    "user_version": 0
+  },
+  "snapshot_file": "faucet_snapshot_20260108-014616.db.gz.gpg",
+  "snapshot_sha256": "48b77d8130de1bacbc974b053f8624208ad4b785206518c89f398a62f70d57f9",
+  "snapshot_size_bytes": 5276,
+  "source_checks": {
+    "integrity_check": [
+      "ok"
+    ],
+    "integrity_check_ok": true,
+    "journal_mode": "wal",
+    "quick_check": [
+      "ok"
+    ],
+    "quick_check_ok": true,
+    "synchronous": 2,
+    "user_version": 0
+  },
+  "source_db_path": "/home/j4005/PoW-Faucet/backend/faucet.db"
+}
