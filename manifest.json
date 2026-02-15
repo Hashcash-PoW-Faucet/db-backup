@@ -1,6 +1,6 @@
 {
-  "created_at_unix": 1771117202,
-  "created_at_utc": "2026-02-15T01:00:02Z",
+  "created_at_unix": 1771119002,
+  "created_at_utc": "2026-02-15T01:30:02Z",
   "note": "Encrypted snapshot: gzip + gpg symmetric AES256",
   "snapshot_checks": {
     "integrity_check": [
@@ -15,9 +15,9 @@
     "synchronous": 2,
     "user_version": 0
   },
-  "snapshot_file": "faucet_snapshot_20260215-010002.db.gz.gpg",
-  "snapshot_sha256": "b03a9323a00b83160848aa5ed43e1cb336630d48a6cd37bc91691d3c43640d4b",
-  "snapshot_size_bytes": 40456,
+  "snapshot_file": "faucet_snapshot_20260215-013002.db.gz.gpg",
+  "snapshot_sha256": "d060625936a48281e67a5308fc8540682331a0e4c31c12b7ff2c34b8757c5191",
+  "snapshot_size_bytes": 40551,
   "source_checks": {
     "integrity_check": [
       "ok"
