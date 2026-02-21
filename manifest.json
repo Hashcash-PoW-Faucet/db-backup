@@ -1,35 +1,73 @@
 {
-  "created_at_unix": 1771698603,
-  "created_at_utc": "2026-02-21T18:30:03Z",
-  "note": "Encrypted snapshot: gzip + gpg symmetric AES256",
-  "snapshot_checks": {
-    "integrity_check": [
-      "ok"
-    ],
-    "integrity_check_ok": true,
-    "journal_mode": "delete",
-    "quick_check": [
-      "ok"
-    ],
-    "quick_check_ok": true,
-    "synchronous": 2,
-    "user_version": 0
-  },
-  "snapshot_file": "faucet_snapshot_20260221-183003.db.gz.gpg",
-  "snapshot_sha256": "74adc785f141e043b2522cc3456741e57772deff64a8492f5bc747fc88be304a",
-  "snapshot_size_bytes": 133475,
-  "source_checks": {
-    "integrity_check": [
-      "ok"
-    ],
-    "integrity_check_ok": true,
-    "journal_mode": "wal",
-    "quick_check": [
-      "ok"
-    ],
-    "quick_check_ok": true,
-    "synchronous": 2,
-    "user_version": 0
-  },
-  "source_db_path": "/home/j4005/PoW-Faucet/backend/faucet.db"
+  "created_at_unix": 1771698967,
+  "created_at_utc": "2026-02-21T18:36:07Z",
+  "items": [
+    {
+      "db_name": "faucet",
+      "db_path": "/home/j4005/PoW-Faucet/backend/faucet.db",
+      "snapshot_checks": {
+        "integrity_check": [
+          "ok"
+        ],
+        "integrity_check_ok": true,
+        "journal_mode": "delete",
+        "quick_check": [
+          "ok"
+        ],
+        "quick_check_ok": true,
+        "synchronous": 2,
+        "user_version": 0
+      },
+      "snapshot_file": "faucet_snapshot_20260221-183607.db.gz.gpg",
+      "snapshot_sha256": "a3f5eea20a1e42d92f0b011f7d77aa2306db869aee1782173c11a32a0af784c4",
+      "snapshot_size_bytes": 133510,
+      "source_checks": {
+        "integrity_check": [
+          "ok"
+        ],
+        "integrity_check_ok": true,
+        "journal_mode": "wal",
+        "quick_check": [
+          "ok"
+        ],
+        "quick_check_ok": true,
+        "synchronous": 2,
+        "user_version": 0
+      }
+    },
+    {
+      "db_name": "tipbot",
+      "db_path": "/home/j4005/HCC_Tipping_Bot/tipbot.db",
+      "snapshot_checks": {
+        "integrity_check": [
+          "ok"
+        ],
+        "integrity_check_ok": true,
+        "journal_mode": "delete",
+        "quick_check": [
+          "ok"
+        ],
+        "quick_check_ok": true,
+        "synchronous": 2,
+        "user_version": 0
+      },
+      "snapshot_file": "tipbot_snapshot_20260221-183607.db.gz.gpg",
+      "snapshot_sha256": "e499a0b7216ea33d858b51839eda7559a8929e83881b391cee00f12f89217577",
+      "snapshot_size_bytes": 26214,
+      "source_checks": {
+        "integrity_check": [
+          "ok"
+        ],
+        "integrity_check_ok": true,
+        "journal_mode": "wal",
+        "quick_check": [
+          "ok"
+        ],
+        "quick_check_ok": true,
+        "synchronous": 2,
+        "user_version": 0
+      }
+    }
+  ],
+  "note": "Encrypted snapshot(s): gzip + gpg symmetric AES256"
 }
