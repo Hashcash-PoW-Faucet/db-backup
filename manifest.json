@@ -1,6 +1,6 @@
 {
-  "created_at_unix": 1780948804,
-  "created_at_utc": "2026-06-08T20:00:04Z",
+  "created_at_unix": 1780950604,
+  "created_at_utc": "2026-06-08T20:30:04Z",
   "items": [
     {
       "db_name": "faucet",
@@ -18,9 +18,9 @@
         "synchronous": 2,
         "user_version": 0
       },
-      "snapshot_file": "faucet_snapshot_20260608-200004.db.gz.gpg",
-      "snapshot_sha256": "c77f0a75c86cb61370619b660b11caef672d6d442af854b74c690deecb8a7088",
-      "snapshot_size_bytes": 7927120,
+      "snapshot_file": "faucet_snapshot_20260608-203004.db.gz.gpg",
+      "snapshot_sha256": "d99b0640772991c6960eaf8061d2a2b0d4f2df43d09d306c21cc9e05e0c352af",
+      "snapshot_size_bytes": 7927246,
       "source_checks": {
         "integrity_check": [
           "ok"
@@ -51,9 +51,9 @@
         "synchronous": 2,
         "user_version": 0
       },
-      "snapshot_file": "tipbot_snapshot_20260608-200004.db.gz.gpg",
-      "snapshot_sha256": "7b5b0823c389d6faa559123227663e48cdb67e2d13a6446874b14131ac72e036",
-      "snapshot_size_bytes": 729105,
+      "snapshot_file": "tipbot_snapshot_20260608-203004.db.gz.gpg",
+      "snapshot_sha256": "ad77710744066d854e50f3134babd0b7dd98cd6248bd1c604ce2999a66823bb6",
+      "snapshot_size_bytes": 729154,
       "source_checks": {
         "integrity_check": [
           "ok"
